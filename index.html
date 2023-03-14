@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href='img/check-circle-fill.svg' type="image/x-icon">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="list p-50">
+        <div class="container">
+            <div class="addTask">
+                <h2>My Daily Tasks</h2>
+                <input type="text" id="task" class="form-control mt-4" id="task" placeholder="Type Your Task Here .....">
+                <button class="btn btn-success mt-4" id="myButton">Add</button>
+                <button class="btn btn-danger mt-4" id="myButtonDel">Empty List</button>
+
+            </div>
+            <table class="table text-center mt-5 table-bordered">
+                <thead class="bg-dark text-white">
+                    <th>Task</th>
+                </thead>
+
+                <tbody id="tBody">
+                </tbody>
+
+                <tfoot id="tFoot" class="bg-dark text-white">
+
+                </tfoot>
+            </table>
+        </div>
+    </section>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

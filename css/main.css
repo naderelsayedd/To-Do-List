@@ -1,0 +1,48 @@
+.p-50
+{
+    padding: 50px 0 ;
+}
+.list h2 
+{
+    text-align: center;
+}
+* 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+td
+{
+    cursor: pointer;
+    font-size: 23px;
+
+}
+
+.addTask 
+{
+    /* text-align: center; */
+    width: 500px;
+    margin: auto;
+    padding: 30px ;
+    border-radius: 20px;
+    background-color: #09c;
+}
+
+.table thead th
+{
+    border: none;
+
+}
+
+.table
+{
+    width: 700px;
+    border: none;
+    margin: auto;
+}
+
+.table i 
+{
+    float: right;
+    cursor: pointer;
+}
